@@ -146,7 +146,7 @@ padding: 2rem 0;
 }
 .chapters .chapter {
 position: relative;
-width: 32.333%;
+width: 21%;
 margin: 0 0.5% 1% 0.5%;
 overflow: hidden;
 -webkit-transition: -webkit-transform 0.4s;
@@ -215,62 +215,62 @@ flex-wrap: wrap;
 
 // ADJUSTMENTS FOR MOBILE
 @media (max-width: 700px) {
-.about-page{
-    width: 100%;
-}
-.chapters .chapter {
-    width: 99.0%;
-}
-.yigit-custom{
-    display: none;
-}
-.cv-image img{
-    display: none;
-}
-.cv-image{
-    display: none;
-    width: 0.0%;
-    margin-right: 8px;
-}
-.content-bef .title {
-    font-size: 29px;
-}
-.content-bef .sub_title {
-    font-size: 24px;
-    -webkit-text-stroke-width: 0px;
-}
-.title-container {
-    width: 100%;
-    aspect-ratio: 1/1;
-    img{
-        object-fit: cover;
+    .about-page{
+        width: 100%;
     }
-}
-.wrapper-bef-2 {
-    width: 94%;
-    h2{
-    margin-top: 25px;
+    .chapters .chapter {
+        width: 48%;
     }
-}
-.content-bef .profile img{
-    width: 140px;
-}
-.cv-info{
-    width: 100%;
-}
-.cv-div{
-    width: 98%;
-}
-.cv-top-title, .cv-head, .cv-title{
-    text-align: center;
-}
-.center-text{
-    text-align: center;
-}
+    .yigit-custom{
+        display: none;
+    }
+    .cv-image img{
+        display: none;
+    }
+    .cv-image{
+        display: none;
+        width: 0.0%;
+        margin-right: 8px;
+    }
+    .content-bef .title {
+        font-size: 29px;
+    }
+    .content-bef .sub_title {
+        font-size: 24px;
+        -webkit-text-stroke-width: 0px;
+    }
+    .title-container {
+        width: 100%;
+        aspect-ratio: 1/1;
+        img{
+            object-fit: cover;
+        }
+    }
+    .wrapper-bef-2 {
+        width: 94%;
+        h2{
+        margin-top: 25px;
+        }
+    }
+    .content-bef .profile img{
+        width: 140px;
+    }
+    .cv-info{
+        width: 100%;
+    }
+    .cv-div{
+        width: 98%;
+    }
+    .cv-top-title, .cv-head, .cv-title{
+        text-align: center;
+    }
+    .center-text{
+        text-align: center;
+    }
 }
 
 @media (min-width: 701px) and (max-width: 1100px) {
-.chapters .chapter {
-    width: 48.5%;
-}
+    .chapters .chapter {
+        width: 48.5%;
+    }
 }
