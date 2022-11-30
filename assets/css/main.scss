@@ -39,3 +39,235 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+// CSS for about me page =======================
+.center-page{
+display: flex;
+justify-content: center;
+margin: 0;
+}
+.center-page p{
+    text-align: justify;    
+}
+.about-page{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.content-bef {
+position: absolute;
+width: 70%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.content-bef .title, .content-bef .sub_title {
+text-align: center;
+color: rgb(18, 55, 65);
+}
+.content-bef .title {
+font-size: 39px;
+margin: 0 0 1rem 0;
+}
+.content-bef .sub_title {
+font-weight: 600;
+font-size: 34px;
+-webkit-text-stroke: 1px rgb(152, 189, 189);
+margin: 0 auto 0 auto;
+font-style: italic;
+}
+.title-container {
+position: relative;
+text-align: center;
+color: rgb(17,142,172);
+margin: 0;
+width: 100%;
+aspect-ratio: 2/1;
+}
+.content-bef .profile{
+margin-bottom: 25px;
+}
+.content-bef .profile img{
+border-radius: 50%;
+width: 25%;
+border: 5px solid white;
+}
+
+// CSS for CV page   ================================
+.cv-top-title{
+height: 70px;
+font-size: 28px;
+font-weight: 700;
+margin-top: 15px;
+color: rgb(18, 117, 117);
+}
+.cv-div{
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+width: 100%;
+}
+.cv-title{
+font-weight: 700;
+font-size: large;
+}
+.cv-info{
+width: 85.0%;
+margin-top: 3px;
+margin-bottom: 3px;
+font-size: medium;
+}
+.cv-image {
+width: 8.0%;
+object-fit: contain;
+margin-right: 25px;
+margin-top: 10px;
+}
+.cv-div ul{
+margin-top: 2px;
+}
+.cv-head{
+font-size: 25px;
+margin-top: 25px;
+margin-bottom: 18px;
+color: rgb(18, 117, 117);
+}
+// =============================  
+
+
+.projectVideo{
+width: 90.0%;
+border-radius: 5px;
+}
+.chapters {
+padding: 2rem 0;
+}
+.chapters .chapter {
+position: relative;
+width: 32.333%;
+margin: 0 0.5% 1% 0.5%;
+overflow: hidden;
+-webkit-transition: -webkit-transform 0.4s;
+transition: -webkit-transform 0.4s;
+transition: transform 0.4s;
+transition: transform 0.4s, -webkit-transform 0.4s;
+}
+.chapters .chapter a {
+text-decoration: none;
+}
+.chapters .chapter img {
+width: 100%;
+vertical-align: middle;
+-webkit-transition: all 0.4s;
+transition: all 0.4s;
+border-radius: 5px;
+}
+.chapters .chapter img:hover {
+-webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+.chapters .chapter_inner {
+position: absolute;
+left: 2.5%;
+bottom: 10%;
+}
+.chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title {
+color: #ffffff;
+}
+.chapters .chapter_inner .chapter_number {
+font-size: 0.7rem;
+text-transform: uppercase;
+margin: 0 0 1rem 0;
+}
+.chapters .chapter_inner .chapter_number::after {
+content: "";
+display: block;
+width: 40px;
+margin-top: 0.3rem;
+border-top: 3px solid #c25b6c;
+}
+.chapters .chapter_inner .chapter_title {
+font-size: 1.15rem;
+font-weight: 500;
+margin: 0 0 0.5rem 0;
+}
+
+.wrapper-bef {
+width: 1440px;
+max-width: 90%;
+margin: 0 auto;
+}
+.wrapper-bef-2 {
+width: 80%;
+margin: 0 auto;
+}
+.flex-row-bef {
+display: flex;
+flex-wrap: wrap;
+}
+.flex-row-bef-2 {
+display: flex;
+flex-wrap: wrap;
+}
+
+// ADJUSTMENTS FOR MOBILE
+@media (max-width: 700px) {
+.about-page{
+    width: 100%;
+}
+.chapters .chapter {
+    width: 99.0%;
+}
+.yigit-custom{
+    display: none;
+}
+.cv-image img{
+    display: none;
+}
+.cv-image{
+    display: none;
+    width: 0.0%;
+    margin-right: 8px;
+}
+.content-bef .title {
+    font-size: 29px;
+}
+.content-bef .sub_title {
+    font-size: 24px;
+    -webkit-text-stroke-width: 0px;
+}
+.title-container {
+    width: 100%;
+    aspect-ratio: 1/2;
+}
+.wrapper-bef-2 {
+    width: 94%;
+    h2{
+    margin-top: 25px;
+    }
+}
+.content-bef .profile img{
+    width: 140px;
+}
+.cv-info{
+    width: 100%;
+}
+.cv-div{
+    width: 98%;
+}
+.cv-top-title, .cv-head, .cv-title{
+    text-align: center;
+}
+.center-text{
+    text-align: center;
+}
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+.chapters .chapter {
+    width: 48.5%;
+}
+}
