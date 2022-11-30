@@ -241,7 +241,10 @@ flex-wrap: wrap;
 }
 .title-container {
     width: 100%;
-    aspect-ratio: 1/2;
+    aspect-ratio: 1/1;
+    img{
+        object-fit: cover;
+    }
 }
 .wrapper-bef-2 {
     width: 94%;
