@@ -46,9 +46,12 @@
 display: flex;
 justify-content: center;
 margin: 0;
+    h1{
+        text-align: center;
+    }  
 }
 .center-page p{
-    text-align: justify;    
+text-align: justify;  
 }
 .about-page{
 width: 80%;
