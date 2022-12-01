@@ -27,7 +27,7 @@ Journal Papers
     height: 60px;
     font-size: 28px;
     font-weight: 600;
-    margin-top: 20px;">
+    margin-top: 40px;">
 Conference Preceedings
 </div>
 {% for post in site.conferences reversed %}
@@ -40,7 +40,7 @@ Conference Preceedings
     height: 60px;
     font-size: 28px;
     font-weight: 600;
-    margin-top: 20px;">
+    margin-top: 40px;">
 Dissertations
 </div>
 {% for post in site.dissertations reversed %}
