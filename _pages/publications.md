@@ -11,6 +11,26 @@ author_profile: true
 
 {% include base_path %}
 
+<div style="display: flex;
+    flex-direction: row;
+    height: 60px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;">
+Journal Papers
+</div>
 {% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<div style="display: flex;
+    flex-direction: row;
+    height: 60px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;">
+Conference Preceedings
+</div>
+{% for post in site.conferences reversed %}
   {% include archive-single.html %}
 {% endfor %}
