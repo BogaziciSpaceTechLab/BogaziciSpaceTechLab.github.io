@@ -120,9 +120,13 @@ transition: transform 0.4s, -webkit-transform 0.4s;
 .people .person a {
 text-decoration: none;
 }
+.people .person .image {
+width: 100%;
+aspect-ratio: 1/1;
+}
 .people .person .image img {
 width: 100%;
-aspect-ratio: 1;
+aspect-ratio: 1/1;
 object-fit: cover;
 vertical-align: middle;
 -webkit-transition: all 0.4s;
