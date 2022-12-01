@@ -51,9 +51,9 @@
                 {% endif %}
               </a>
               <a href="{{post.url | prepend: site.baseurl}}">
-                <div class="person_inner">
-                  <p class="person_number">{{post.date | date: '%Y'}}</p>
-                  <h3 class="person_title">{{post.title}}</h3>
+                <div class="person_info">
+                  <div class="person_title">{{post.title}}</div>
+                  <div class="person_type">{{post.type}}</div>
                 </div>
               </a>
             </div>

@@ -1,6 +1,6 @@
 ---
 title: "Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code"
-img: IonThruster.webp
+img: projects/IonThruster.webp
 collection: projects
 date: 2022-12-05
 ---
@@ -24,7 +24,7 @@ Some electric propulsion methods include pressure-feed thrust, where the pressur
 </div>
 
 <center>
-<img src="/images/electricPotential.png" alt="Electric Potential" style="resolution=150dpi;width=95.0%;"/>
+<img src="/images/projects/electricPotential.png" alt="Electric Potential" style="resolution=150dpi;width=95.0%;"/>
 </center>
 
 <div align="justify">
