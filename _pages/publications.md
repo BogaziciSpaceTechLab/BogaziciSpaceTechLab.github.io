@@ -13,10 +13,8 @@ author_profile: true
 <div style="display: flex;
     flex-direction: row;
     align-items:center;
-    height: 60px;
     font-size: 28px;
-    font-weight: 600;
-    margin-top: 20px;">
+    font-weight: 600;">
 Journal Papers
 </div>
 {% for post in site.publications reversed %}
@@ -33,5 +31,18 @@ Journal Papers
 Conference Preceedings
 </div>
 {% for post in site.conferences reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<div style="display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 60px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;">
+Dissertations
+</div>
+{% for post in site.dissertations reversed %}
   {% include archive-single.html %}
 {% endfor %}

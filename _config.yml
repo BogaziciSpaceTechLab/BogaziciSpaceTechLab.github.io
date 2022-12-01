@@ -119,6 +119,9 @@ collections:
   conferences:
     output: true
     permalink: /:collection/:path/
+  dissertations:
+    output: true
+    permalink: /:collection/:path/
   people:
     output: true
     permalink: /:collection/:path/
@@ -162,6 +165,15 @@ defaults:
   - scope:
       path: ""
       type: conferences
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _dissertations
+  - scope:
+      path: ""
+      type: dissertations
     values:
       layout: single
       author_profile: true
