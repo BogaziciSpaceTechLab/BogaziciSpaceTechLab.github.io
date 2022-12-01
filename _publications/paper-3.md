@@ -1,9 +1,9 @@
 ---
-title: "2D electromagnetic and fluid models for inductively coupled plasma for RF ion thruster performance evaluation"
+title: "AETHER: A simulation platform for inductively coupled plasma"
 collection: publications
-permalink: /publication/paper-1
-date: 2014-01-01
-venue: 'IEEE Transactions on Plasma Science, Volume: 42, Issue:1, pp. 235-240'
+permalink: /publication/paper-3
+date: 2015-04-01
+venue: 'Journal of Computational Physics, Volume: 286, pp. 87-102'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 authors: 'Turkoz, E.; Celik, M.'
 ---
