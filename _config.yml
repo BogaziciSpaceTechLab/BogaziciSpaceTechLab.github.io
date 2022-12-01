@@ -41,10 +41,10 @@ analytics:
 # Site Author
 author:
   name             : "BUSTLab"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Istanbul"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  avatar           : "boun.jpg"
+  bio              : "In thrust we trust !"
+  location         : "BEBEK / ISTANBUL"
+  googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   github           : "BogaziciSpaceTechLab"
