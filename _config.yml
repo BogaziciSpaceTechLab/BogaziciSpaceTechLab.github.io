@@ -155,7 +155,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _projects
+  # _project
   - scope:
       path: ""
       type: project
@@ -167,7 +167,7 @@ defaults:
   # _people
   - scope:
       path: ""
-      type: person
+      type: people
     values:
       layout: single
       author_profile: true
@@ -176,7 +176,7 @@ defaults:
   # _people-former
   - scope:
       path: ""
-      type: person
+      type: people-former
     values:
       layout: single
       author_profile: true
