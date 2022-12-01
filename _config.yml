@@ -122,7 +122,7 @@ collections:
   people-former:
     output: true
     permalink: /:collection/:path/
-  projects:
+  project:
     output: true
     permalink: /:collection/:path/
 
