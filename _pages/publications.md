@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -13,6 +12,7 @@ author_profile: true
 
 <div style="display: flex;
     flex-direction: row;
+    align-items:center;
     height: 60px;
     font-size: 28px;
     font-weight: 600;
@@ -25,6 +25,7 @@ Journal Papers
 
 <div style="display: flex;
     flex-direction: row;
+    align-items:center;
     height: 60px;
     font-size: 28px;
     font-weight: 600;
