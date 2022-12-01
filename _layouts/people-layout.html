@@ -47,7 +47,7 @@
             <div class="person">
               <a href="{{post.url | prepend: site.baseurl}}">
                 {% if post.img %}
-                <div>
+                <div class="image">
                   <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
                 </div>
                 {% endif %}
