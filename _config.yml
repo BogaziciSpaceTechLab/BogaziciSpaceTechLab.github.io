@@ -119,6 +119,9 @@ collections:
   people:
     output: true
     permalink: /:collection/:path/
+  people-former:
+    output: true
+    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
