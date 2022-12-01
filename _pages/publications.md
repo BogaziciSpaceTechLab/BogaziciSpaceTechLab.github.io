@@ -24,7 +24,6 @@ Journal Papers
 <div style="display: flex;
     flex-direction: row;
     align-items:center;
-    height: 60px;
     font-size: 28px;
     font-weight: 600;
     margin-top: 40px;">
@@ -37,7 +36,6 @@ Conference Preceedings
 <div style="display: flex;
     flex-direction: row;
     align-items:center;
-    height: 60px;
     font-size: 28px;
     font-weight: 600;
     margin-top: 40px;">
