@@ -27,7 +27,7 @@ Journal Papers
     font-size: 28px;
     font-weight: 600;
     margin-top: 40px;">
-Conference Preceedings
+Conference Proceedings
 </div>
 {% for post in site.conferences reversed %}
   {% include archive-single.html %}
