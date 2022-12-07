@@ -17,6 +17,9 @@ author_profile: true
     font-weight: 600;">
 Journal Papers
 </div>
+{% for post in site.publication-prep reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
