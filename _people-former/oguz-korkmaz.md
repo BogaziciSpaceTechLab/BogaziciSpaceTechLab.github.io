@@ -1,7 +1,7 @@
 ---
-title: "Person 3"
+title: "Oğuz Korkmaz"
 img: people/profile.webp
 collection: people
-date: 2022-12-02
-type: Masters
+date: 2015-12-05
+type: M.S.
 ---
