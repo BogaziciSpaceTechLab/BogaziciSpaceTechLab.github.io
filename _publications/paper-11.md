@@ -3,7 +3,8 @@ title: "Experimental Study of the Cathode Position on HK40 Hall Thruster Operati
 collection: publications
 permalink: /publication/paper-3
 date: 2023-04-01
-venue: 'in preparation to be submitted to IEEE Transactions on Plasma Science'
+status: 'not ready'
+venue: 'In preparation to be submitted to IEEE Transactions on Plasma Science'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 authors: 'Turan, N.; Kokal, U.; Kurt, H.; Celik, M.'
 ---
