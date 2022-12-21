@@ -180,17 +180,17 @@ transition: -webkit-transform 0.4s;
 transition: transform 0.4s;
 transition: transform 0.4s, -webkit-transform 0.4s;
 }
-.Projects .project a {
+.Projects .project a, .Projects .project-former a {
 text-decoration: none;
 }
-.Projects .project img {
+.Projects .project img, .Projects .project-former img {
 width: 100%;
 vertical-align: middle;
 -webkit-transition: all 0.4s;
 transition: all 0.4s;
 border-radius: 5px;
 }
-.Projects .project img:hover {
+.Projects .project img:hover, .Projects .project-former img:hover {
 -webkit-transform: scale(1.5);
     -ms-transform: scale(1.5);
         transform: scale(1.5);
