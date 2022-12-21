@@ -117,6 +117,9 @@ collections:
   project:
     output: true
     permalink: /:collection/:path/
+  project-former:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -178,6 +181,15 @@ defaults:
   - scope:
       path: ""
       type: project
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _project-former
+  - scope:
+      path: ""
+      type: project-former
     values:
       layout: single
       author_profile: true
