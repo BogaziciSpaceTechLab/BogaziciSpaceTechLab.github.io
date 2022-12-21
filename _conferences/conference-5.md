@@ -1,11 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "2D axisymmetric fluid and electromagnetic models for inductively coupled plasma (ICP) in RF ion thrusters"
 collection: conferences
 permalink: /conference/conference-1
-date: 2009-10-01
-venue: 'Journal 1'
+date: 2013-10-01
+venue: '33rd International Electric Propulsion Conference, also IEPC-2013-294'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-authors: ''
+authors: 'Turkoz, E.; Celik, M.'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 

@@ -1,11 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "Global Numerical Model For Orifce and Insert Region of a Lanthanum Hexaboride Thermionic Hollow Cathode"
 collection: conferences
 permalink: /conference/conference-1
-date: 2009-10-01
-venue: 'Journal 1'
+date: 2014-05-01
+venue: 'Space Propulsion Conference, Cologne, Germany'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-authors: ''
+authors: 'Korkmaz, O. and Celik, M.'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 

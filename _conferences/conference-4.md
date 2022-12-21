@@ -1,11 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "2D fluid model for axisymmetric RF ion thruster cylindrical discharge chamber"
 collection: conferences
 permalink: /conference/conference-1
-date: 2009-10-01
-venue: 'Journal 1'
+date: 2013-07-01
+venue: '49th Joint Propulsion Conference, also AIAA-2013-4110'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-authors: ''
+authors: 'Turkoz, E.; Celik, M.'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
