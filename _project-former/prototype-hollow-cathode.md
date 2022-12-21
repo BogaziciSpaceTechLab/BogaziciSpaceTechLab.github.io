@@ -1,6 +1,6 @@
 ---
 title: "PROTOTYPE HOLLOW CATHODE"
-img: 500x300.png
+img: projects-former/prototype-hollow-thruster.png
 collection: project-former
 date: 2023-12-05
 ---

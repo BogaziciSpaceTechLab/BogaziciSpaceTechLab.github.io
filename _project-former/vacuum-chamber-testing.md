@@ -1,6 +1,6 @@
 ---
 title: "VACUUM CHAMBER TESTING"
-img: 500x300.png
+img: projects-former/vacuum-chamber.jpg
 collection: project-former
 date: 2012-12-05
 ---

@@ -1,6 +1,6 @@
 ---
 title: "RF CATHODE"
-img: 500x300.png
+img: projects-former/RF-cathode_2.png
 collection: project-former
 date: 2015-12-05
 ---

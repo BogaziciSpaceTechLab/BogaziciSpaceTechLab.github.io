@@ -1,6 +1,6 @@
 ---
 title: "PROTOTYPE RF ION THRUSTER"
-img: 500x300.png
+img: projects-former/RF-cathode_1.png
 collection: project-former
 date: 2023-12-05
 ---

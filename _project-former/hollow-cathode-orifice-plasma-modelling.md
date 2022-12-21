@@ -1,6 +1,6 @@
 ---
 title: "HOLLOW CATHODE ORIFICE AND INSERT REGION PLASMA MODELING"
-img: 500x300.png
+img: projects-former/hollow-cathode-orifice.png.jpg
 collection: project-former
 date: 2023-12-05
 ---

@@ -1,6 +1,6 @@
 ---
 title: "PROTOTYPE HALL THRUSTER"
-img: 500x300.png
+img: projects-former/prototype-hall-thruster.png
 collection: project-former
 date: 2016-12-05
 ---
