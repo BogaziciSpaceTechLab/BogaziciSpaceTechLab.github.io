@@ -170,6 +170,16 @@ transition: -webkit-transform 0.4s;
 transition: transform 0.4s;
 transition: transform 0.4s, -webkit-transform 0.4s;
 }
+.Projects .project-former {
+position: relative;
+width: 20.0%;
+margin: 0 0.5% 1% 0.5%;
+overflow: hidden;
+-webkit-transition: -webkit-transform 0.4s;
+transition: -webkit-transform 0.4s;
+transition: transform 0.4s;
+transition: transform 0.4s, -webkit-transform 0.4s;
+}
 .Projects .project a {
 text-decoration: none;
 }
@@ -245,6 +255,9 @@ justify-content: center;
     .Projects .project {
         width: 98%;
     }
+    .Projects .project-former {
+        width: 48%;
+    }
     .yigit-custom{
         display: none;
     }
@@ -296,5 +309,8 @@ justify-content: center;
 @media (min-width: 701px) and (max-width: 1100px) {
     .Projects .project {
         width: 48.5%;
+    }
+    .Projects .project-former {
+        width: 25.0%;
     }
 }

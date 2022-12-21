@@ -52,7 +52,7 @@ PAST PROJECTS
   <section class="Projects cf">
     <div class="wrapper-bef flex-row-bef">
       {% for post in site.project-former reversed%}
-        <div class="project">
+        <div class="project-former">
           <a href="{{post.url | prepend: site.baseurl}}">
             {% if post.img %}
               <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
