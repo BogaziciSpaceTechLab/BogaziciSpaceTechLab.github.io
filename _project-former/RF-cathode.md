@@ -1,0 +1,9 @@
+---
+title: "RF CATHODE"
+img: 500x300.png
+collection: project-former
+date: 2015-12-05
+---
+This research project involves theoretical study of the RF cathode concept. Use of COM- SOL multi-physics program is being considered for various modeling efforts. Eventually, a prototype will be built and experimental work will be conducted.
+
+Sina Jahanbakhsh is working on this topic.
