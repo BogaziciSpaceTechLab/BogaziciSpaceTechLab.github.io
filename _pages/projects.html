@@ -5,8 +5,7 @@ permalink: /project/
 ---
 {% include base_path %}
 
-<div style="display: flex;
-            flex-direction: row;
+<div style="width: 100%;
             justify-content: center;
             height: 60px;
             font-size: 28px;
@@ -16,21 +15,28 @@ permalink: /project/
 CURRENT PROJECTS
 </div>
 
-{% for post in site.project reversed%}
-  <div class="project">
-    <a href="{{post.url | prepend: site.baseurl}}">
-      {% if post.img %}
-        <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-      {% endif %}
-    </a>
-    <a href="{{post.url | prepend: site.baseurl}}">
-      <div class="project_inner">
-        <p class="project_number">{{post.date | date: '%Y'}}</p>
-        <h3 class="project_title">{{post.title}}</h3>
-      </div>
-    </a>
-  </div>
-{% endfor %}
+<main class="page-content" aria-label="Content">
+  <section class="Projects cf">
+    <div class="wrapper-bef flex-row-bef">
+      {% for post in site.project reversed%}
+        <div class="project">
+          <a href="{{post.url | prepend: site.baseurl}}">
+            {% if post.img %}
+              <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+            {% endif %}
+          </a>
+          <a href="{{post.url | prepend: site.baseurl}}">
+            <div class="project_inner">
+              <p class="project_number">{{post.date | date: '%Y'}}</p>
+              <h3 class="project_title">{{post.title}}</h3>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>
+
 
 <div style="display: flex;
             flex-direction: row;
@@ -43,18 +49,25 @@ CURRENT PROJECTS
 PAST PROJECTS
 </div>
 
-{% for post in site.project-former reversed%}
-  <div class="project">
-    <a href="{{post.url | prepend: site.baseurl}}">
-      {% if post.img %}
-        <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-      {% endif %}
-    </a>
-    <a href="{{post.url | prepend: site.baseurl}}">
-      <div class="project_inner">
-        <p class="project_number">{{post.date | date: '%Y'}}</p>
-        <h3 class="project_title">{{post.title}}</h3>
-      </div>
-    </a>
-  </div>
-{% endfor %}
+<main class="page-content" aria-label="Content">
+  <section class="Projects cf">
+    <div class="wrapper-bef flex-row-bef">
+      {% for post in site.project-former reversed%}
+        <div class="project">
+          <a href="{{post.url | prepend: site.baseurl}}">
+            {% if post.img %}
+              <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+            {% endif %}
+          </a>
+          <a href="{{post.url | prepend: site.baseurl}}">
+            <div class="project_inner">
+              <p class="project_number">{{post.date | date: '%Y'}}</p>
+              <h3 class="project_title">{{post.title}}</h3>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>
+

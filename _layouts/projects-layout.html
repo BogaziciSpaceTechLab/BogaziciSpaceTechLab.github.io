@@ -9,13 +9,9 @@
 
   <body>
     {% include masthead.html %}
-    <main class="page-content" aria-label="Content">
-      <section class="Projects cf">
-        <div class="wrapper-bef flex-row-bef">
-          {{ content }}
-        </div>
-      </section>
-    </main>
+
+    {{ content }}
+    
     <div class="page__footer">
       <footer>
         {% include footer.html %}
