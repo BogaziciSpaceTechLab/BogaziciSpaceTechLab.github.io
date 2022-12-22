@@ -1,6 +1,6 @@
 ---
 title: "PROTOTYPE CUSPED FIELD HALL THRUSTER"
-img: cover-pictures/cusped-field-thruster-3.png
+img: cover-pictures/cusped-field-thruster-3.jpg
 collection: project-former
 date: 2023-12-05
 ---

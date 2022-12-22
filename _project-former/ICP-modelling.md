@@ -1,6 +1,6 @@
 ---
 title: "INDUCTIVELY COUPLED PLASMA (ICP) MODELING"
-img: projects-former/ICP-modelling.png
+img: 500x300.png
 collection: project-former
 date: 2023-12-05
 ---
