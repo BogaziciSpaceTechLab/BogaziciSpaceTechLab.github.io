@@ -6,3 +6,7 @@ date: 2014-12-05
 ---
 
 This research project involves the investigation of the phenomenon of anode spot both theoretically and experimentaly.
+
+<center>
+<img src="/images/projects-former/hollow-cathode-orifice.png" alt="Electric Potential" style="width=95.0%;"/>
+</center>
