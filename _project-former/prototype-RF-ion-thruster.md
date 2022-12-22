@@ -1,6 +1,6 @@
 ---
 title: "PROTOTYPE RF ION THRUSTER"
-img: projects-former/RF-cathode_1.png
+img: cover-pictures/BURFIT-80-2.png
 collection: project-former
 date: 2023-12-05
 ---

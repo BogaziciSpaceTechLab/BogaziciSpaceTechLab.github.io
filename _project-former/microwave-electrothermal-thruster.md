@@ -1,6 +1,6 @@
 ---
 title: "MICROWAVE ELECTROTHERMAL THRUSTER"
-img: projects-former/microwave-electrothermal-thruster.png
+img: cover-pictures/thruster-test.jpg
 collection: project-former
 date: 2015-12-05
 ---

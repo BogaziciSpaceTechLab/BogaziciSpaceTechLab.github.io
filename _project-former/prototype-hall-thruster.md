@@ -1,6 +1,6 @@
 ---
 title: "PROTOTYPE HALL THRUSTER"
-img: projects-former/prototype-hall-thruster.png
+img: cover-pictures/hall-effect-cathode.png
 collection: project-former
 date: 2016-12-05
 ---

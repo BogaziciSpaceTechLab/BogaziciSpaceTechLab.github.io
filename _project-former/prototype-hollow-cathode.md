@@ -1,6 +1,6 @@
 ---
 title: "PROTOTYPE HOLLOW CATHODE"
-img: projects-former/prototype-hollow-cathode.png
+img: cover-pictures/hollow-cathode-2.jpg
 collection: project-former
 date: 2023-12-05
 ---
