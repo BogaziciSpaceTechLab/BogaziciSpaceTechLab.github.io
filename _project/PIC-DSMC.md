@@ -1,6 +1,6 @@
 ---
 title: "Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code"
-img: projects/IonThruster.webp
+img: cover-pictures/IonThruster.webp
 collection: projects
 date: 2022-12-05
 ---

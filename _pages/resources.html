@@ -3,5 +3,11 @@ layout: archive
 title: "Resources"
 permalink: /resources/
 ---
+
 {% include base_path %}
 
+<h3>PAGE UNDER CONSTRUCTION</h3>
+
+{% for post in site.resource reversed %}
+  {% include archive-single.html %}
+{% endfor %}
