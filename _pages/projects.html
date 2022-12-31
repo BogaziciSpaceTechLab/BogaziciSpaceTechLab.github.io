@@ -18,7 +18,7 @@ CURRENT PROJECTS
 <main class="page-content" aria-label="Content">
   <section class="Projects cf">
     <div class="wrapper-bef flex-row-bef">
-      {% for post in site.project reversed%}
+      {% for post in site.projects reversed%}
         <div class="project">
           <a href="{{post.url | prepend: site.baseurl}}">
             {% if post.img %}

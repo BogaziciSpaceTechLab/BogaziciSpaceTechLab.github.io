@@ -23,7 +23,7 @@
     <div style="display:flex;flex-direction:column;width:100%;">
         <center>
           <a href="/murat-celik/">
-            <img src="/images/people/murat-celik.png" alt="Murat Celik" style="border-radius: 50%;width: 22%;min-width: 150px;">
+            <img src="/images/people/murat-celik.png" alt="Murat Celik" class="director-image">
           </a>
         </center>
         <div style="width: 100%; text-align:center;margin-top: 15px;font-size: larger;font-weight: 600;">
@@ -48,18 +48,12 @@
         <div class="wrapper-bef flex-row-bef">
           {% for post in site.people reversed%}
             <div class="person">
-              <a href="{{post.url | prepend: site.baseurl}}">
-                {% if post.img %}
+              <a style="display: flex;flex-direction: column;" href="{{post.url | prepend: site.baseurl}}">
                 <div class="image">
                   <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
                 </div>
-                {% endif %}
-              </a>
-              <a href="{{post.url | prepend: site.baseurl}}">
-                <div class="person_info">
-                  <div class="person_title">{{post.title}}</div>
-                  <div class="person_type">{{post.type}}</div>
-                </div>
+                <div class="person_info person_title">{{post.title}}</div>
+                <div class="person_info person_type">{{post.type}}</div>
               </a>
             </div>
           {% endfor %}
@@ -83,18 +77,12 @@
         <div class="wrapper-bef flex-row-bef">
           {% for post in site.people-former reversed%}
           <div class="person">
-            <a href="{{post.url | prepend: site.baseurl}}">
-              {% if post.img %}
+            <a style="display: flex;flex-direction: column;" href="{{post.url | prepend: site.baseurl}}">
               <div class="image">
                 <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
               </div>
-              {% endif %}
-            </a>
-            <a href="{{post.url | prepend: site.baseurl}}">
-              <div class="person_info">
-                <div class="person_title">{{post.title}}</div>
-                <div class="person_type">{{post.type}}</div>
-              </div>
+              <div class="person_info person_title">{{post.title}}</div>
+              <div class="person_info person_type">{{post.type}}</div>
             </a>
           </div>
           {% endfor %}

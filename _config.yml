@@ -117,7 +117,7 @@ collections:
   people-former:
     output: true
     permalink: /:collection/:path/
-  project:
+  projects:
     output: true
     permalink: /:collection/:path/
   project-former:
@@ -192,7 +192,7 @@ defaults:
   # _project
   - scope:
       path: ""
-      type: project
+      type: projects
     values:
       layout: single
       author_profile: true

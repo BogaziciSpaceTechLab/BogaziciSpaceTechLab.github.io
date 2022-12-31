@@ -112,44 +112,47 @@ flex-direction: column;
 width: 17%;
 margin: 0 0.5% 1% 0.5%;
 overflow: hidden;
--webkit-transition: -webkit-transform 0.4s;
-transition: -webkit-transform 0.4s;
-transition: transform 0.4s;
-transition: transform 0.4s, -webkit-transform 0.4s;
 }
 .people .person a {
 text-decoration: none;
 }
 .people .person .image {
+display: flex;
 width: 100%;
 aspect-ratio: 1/1;
+justify-content: center;
+vertical-align: center;
+border-radius: 5px;
+overflow: hidden;
 }
-.people .person .image img {
+.people .person .image img{
 width: 100%;
-aspect-ratio: 1/1;
-object-fit: cover;
-vertical-align: middle;
--webkit-transition: all 0.4s;
 transition: all 0.4s;
 border-radius: 5px;
 }
-.people .person img:hover {
--webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-        transform: scale(1.2);
+.people .person .image img:hover {
+transform: scale(1.2);
 }
-.people .person_info .person_type, .people .person_info .person_title {
+.director-image{
+border-radius: 50%;
+width: 22%;
+min-width: 150px;
+transition: all 0.3s;
+}
+.director-image:hover{
+box-shadow: 0 0 8px 10px rgba(103, 99, 99, 0.348);
+}
+.people .person_info{
 color: #3d3d3d;
 width: 100%;
-justify-content: center;
 text-align: center;
 }
-.people .person_info .person_type {
+.people .person_type {
 font-size: 0.7rem;
 text-transform: uppercase;
 margin-top: 10px;
 }
-.people .person_info .person_title {
+.people .person_title {
 font-size: 1.15rem;
 font-weight: 500;
 margin: 0 0 0.5rem 0;
@@ -163,22 +166,19 @@ padding: 2rem 0;
 .Projects .project {
 position: relative;
 width: 32.333%;
+aspect-ratio: 16/9;
 margin: 0 0.5% 1% 0.5%;
 overflow: hidden;
--webkit-transition: -webkit-transform 0.4s;
-transition: -webkit-transform 0.4s;
 transition: transform 0.4s;
-transition: transform 0.4s, -webkit-transform 0.4s;
+border-radius: 5px;
 }
 .Projects .project-former {
 position: relative;
 width: 19.0%;
 margin: 0 0.5% 1% 0.5%;
 overflow: hidden;
--webkit-transition: -webkit-transform 0.4s;
-transition: -webkit-transform 0.4s;
 transition: transform 0.4s;
-transition: transform 0.4s, -webkit-transform 0.4s;
+border-radius: 5px;
 }
 .Projects .project a, .Projects .project-former a {
 text-decoration: none;
@@ -186,14 +186,10 @@ text-decoration: none;
 .Projects .project img, .Projects .project-former img {
 width: 100%;
 vertical-align: middle;
--webkit-transition: all 0.4s;
 transition: all 0.4s;
-border-radius: 5px;
 }
 .Projects .project img:hover, .Projects .project-former img:hover {
--webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-        transform: scale(1.5);
+transform: scale(1.5);
 }
 .Projects .project_inner {
 position: absolute;

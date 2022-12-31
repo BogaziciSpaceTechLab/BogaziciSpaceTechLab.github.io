@@ -18,10 +18,10 @@ author_profile: true
 Journal Papers
 </div>
 {% for post in site.publication-prep reversed %}
-  {% include archive-single.html %}
+  {% include archive-publication.html %}
 {% endfor %}
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% include archive-publication.html %}
 {% endfor %}
 
 <div style="display: flex;
@@ -33,7 +33,7 @@ Journal Papers
 Conference Proceedings
 </div>
 {% for post in site.conferences reversed %}
-  {% include archive-single.html %}
+  {% include archive-conference.html %}
 {% endfor %}
 
 <div style="display: flex;
@@ -45,5 +45,5 @@ Conference Proceedings
 Dissertations
 </div>
 {% for post in site.dissertations reversed %}
-  {% include archive-single.html %}
+  {% include archive-dissertation.html %}
 {% endfor %}
