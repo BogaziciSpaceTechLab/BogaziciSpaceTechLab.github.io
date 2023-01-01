@@ -138,7 +138,7 @@ filter: none;
 .director-image{
 border-radius: 50%;
 width: 22%;
-min-width: 150px;
+min-width: 250px;
 transition: all 0.3s;
 }
 .director-image:hover{
@@ -152,12 +152,12 @@ text-align: center;
 .people .person_type {
 font-size: 0.7rem;
 text-transform: uppercase;
-margin-top: 10px;
+margin-top: 5px;
 }
 .people .person_title {
 font-size: 1.15rem;
 font-weight: 500;
-margin: 0 0 0.5rem 0;
+margin: 0;
 }
 
 
@@ -267,6 +267,9 @@ justify-content: center;
     }
     .people .person {
         width: 48%;
+    }
+    .people .person .image img{
+        filter: none;
     }
     .Projects .project {
         width: 98%;
