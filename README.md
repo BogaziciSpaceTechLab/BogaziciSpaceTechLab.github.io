@@ -10,9 +10,9 @@ Journal articles, conference preceedings, projects etc. are stored using collect
 For neatness, I used 16:9 aspect ratio for the cover pictures of the projects. You use the image editor of windows to crop your image quickly. People photos have 1:1 ratio, please use consistent images to prevent any unpleasant results.
 
 If you ever need to add another collection, i.e. ted-x talks, you need to,
-- 1. create a folder by the name of your collection having a _ at the beginning
-- 2. use some existing collection element as template
-- 3. add
+1. create a folder by the name of your collection having a _ at the beginning
+2. use some existing collection element as template
+3. add
 ```
   collections:
     CollectionName:
@@ -31,7 +31,7 @@ If you ever need to add another collection, i.e. ted-x talks, you need to,
         author_profile: true
 ```
   in _config.xml file. **defaults:** and **collectons:** lines are already exist, just add the rest to the end.
-- 4. Each element of the collection has to include 
+4. Each element of the collection has to include 
 ```  
   collection: CollectionName
 ```  
