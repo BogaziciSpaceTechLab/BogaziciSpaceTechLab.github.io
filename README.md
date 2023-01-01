@@ -36,3 +36,11 @@ If you ever need to add another collection, i.e. ted-x talks, you need to,
 ```  
   collection: CollectionName
 ```  
+
+5. to create a for loop to show list items, you can use a code like
+```
+{% for post in site.CollectionName reversed %}
+  {% include archive-CollectionName.html %}
+{% endfor %}
+```
+**archive-CollectionName.html** file should be in the *include* folder. If you want, you can use an existing file like archive-publication.html. To change layout of the display to a completely different one, you have to learn css and html (don't worry they are very simple). 
