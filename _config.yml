@@ -1,6 +1,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "BUSTLab"
+about-page-title         : "About"
 title_separator          : "-"
 name                     : &name "Bogazici University Space Technologies Laboratory"
 description              : &description "personal description"
