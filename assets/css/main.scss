@@ -190,8 +190,9 @@ width: 100%;
 vertical-align: middle;
 transition: all 0.4s;
 }
-.Projects .project img:hover, .Projects .project-former img:hover {
+.Projects .project:hover img, .Projects .project-former:hover img {
 transform: scale(1.5);
+filter: grayscale(95%);
 }
 .Projects .project_inner {
 position: absolute;
@@ -236,7 +237,9 @@ font-size: 0.75rem;
 font-weight: 500;
 margin: 0 0 0.5rem 0;
 }
-
+.project:hover .former_project_title, .project:hover .project_title{
+    text-shadow: 0 0 6px black;
+}
 
 
 
