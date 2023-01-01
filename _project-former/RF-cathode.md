@@ -1,6 +1,6 @@
 ---
 title: "RF CATHODE"
-img: cover-pictures/RF-cathode-2.png
+img: cover-pictures/rf-cathode-2.png
 collection: project-former
 date: 2015-12-05
 ---

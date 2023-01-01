@@ -129,9 +129,11 @@ overflow: hidden;
 width: 100%;
 transition: all 0.4s;
 border-radius: 5px;
+filter: grayscale(80%);
 }
 .people .person .image img:hover {
 transform: scale(1.2);
+filter: none;
 }
 .director-image{
 border-radius: 50%;

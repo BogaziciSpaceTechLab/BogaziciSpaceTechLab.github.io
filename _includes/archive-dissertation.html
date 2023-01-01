@@ -26,19 +26,19 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" style="font-weight:600; font-size: 20px;" itemprop="headline">
+    <h2 class="archive__item-title" itemprop="headline">
         {{ title }}
     </h2>
 
-    <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+    <div class="archive__item-subtitle"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
 
     <div style="display: flex;flex-direction: row;width:100%;flex-wrap: wrap;">
       {% if post.authors %}
-        <div><b>Authors: </b> <i>{{ post.authors }}</i> </div>
+        <div class="archive__item-subsubtitle"><b>Authors: </b> <i>{{ post.authors }}</i> </div>
       {% endif %}
       
       {% if post.paperurl %}
-        <div style="margin-left: 25px;"><a href=" {{ post.paperurl }} ">Download</a></div>
+        <div class="archive__item-subsubtitle" style="margin-left: 25px;"><a href=" {{ post.paperurl }} ">Download</a></div>
       {% endif %}
     </div>    
   </article>

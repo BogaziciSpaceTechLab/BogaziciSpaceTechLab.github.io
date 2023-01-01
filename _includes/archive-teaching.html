@@ -1,0 +1,50 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none; color: rgb(85, 85, 85);">
+      <h2 class="archive__item-title" itemprop="headline">
+          {{ title }}
+      </h2>
+    
+      {% if post.collection == 'teaching' %}
+        <div class="archive__item-subtitle"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+      {% endif %}
+
+      <div style="display: flex;flex-direction: row;width:100%;flex-wrap: wrap;">
+        {% if post.authors %}
+          <div class="archive__item-subsubtitle"><b>Authors: </b> <i>{{ post.authors }}</i> </div>
+        {% endif %}
+        
+        {% if post.paperurl %}
+          <div  class="archive__item-subsubtitle" style="margin-left: 25px;"><a href=" {{ post.paperurl }} ">Download</a></div>
+        {% endif %}
+      </div>   
+    </a>   
+  </article>
+</div>

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/paper-10
 date: 2019-10-01
 venue: 'Spectrochimica Acta Part B: Atomic Spectroscopy, 160, 105673'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0584854719302393'
 authors: 'Apaydin, E., Celik, M.'
 ---
 This paper is about the number 1. The number 2 is left for future work.

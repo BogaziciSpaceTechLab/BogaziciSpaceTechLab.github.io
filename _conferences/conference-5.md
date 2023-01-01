@@ -4,7 +4,7 @@ collection: conferences
 permalink: /conference/conference-1
 date: 2013-10-01
 venue: '33rd International Electric Propulsion Conference, also IEPC-2013-294'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl:
 authors: 'Turkoz, E.; Celik, M.'
 ---
 This paper is about the number 1. The number 2 is left for future work.

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/paper-6
 date: 2017-08-01
 venue: 'IEEE Transactions on Plasma Science, Volume: 45, Issue: 8, pp. 2314-2322'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/7979545'
 authors: 'Yildiz, M.S.; Celik, M.'
 ---
 This paper is about the number 1. The number 2 is left for future work.
