@@ -12,7 +12,7 @@ For neatness, I used 16:9 aspect ratio for the cover pictures of the projects. Y
 If you ever need to add another collection, i.e. ted-x talks, you need to,
 1. create a folder by the name of your collection having a _ at the beginning
 2. use some existing collection element as template
-3. add
+3. add the following code snippets 
 ```
   collections:
     CollectionName:
